@@ -1,39 +1,40 @@
 Instalación
-Clonar el repositorio
+
+- Clonar el repositorio
 
 [git clone https://github.com/1-Aleja/crud.git](https://github.com/1-Aleja/GeolocalizationBack.git)
 
-Cambiar al directorio del proyecto
+- Cambiar al directorio del proyecto
 
 cd GeolocalizationBack
 
-Instalar las dependencias usando composer
+- Instalar las dependencias usando composer
 
 composer install
 
-Generar los ficheros 'autoload' cargando las clases agregadas
+- Generar los ficheros 'autoload' cargando las clases agregadas
 
 composer dump-autoload
-Copiar el archivo env de ejemplo y realice los cambios de configuración necesarios en el archivo .env (definir la conexión a la base de datos)
+
+- Copiar el archivo env de ejemplo y realice los cambios de configuración necesarios en el archivo .env (definir la conexión a la base de datos)
 
 cp .env.example .env
-Generar una nueva clave de aplicación
+
+- Generar una nueva clave de aplicación
 
 php artisan key:generate
-Ejecutar migraciones de base de datos
+
+- Ejecutar migraciones de base de datos
 
 php artisan migrate
-Crear enlace simbólico para acceder a los archivos de la carpeta storage desde public
 
-Ejecutar los header para migrar la data de prueba a la Base de datos
+- Ejecutar los header para migrar la data de prueba a la Base de datos
+
 php artisan db:seed
 
--Realizar inserts
-
-Iniciar el servidor de desarrollo local.
+- Iniciar el servidor de desarrollo local.
 
 php artisan serve
-Ahora puede acceder al servidor en http://localhost:8000 realizando login con los datos de acceso por defecto del usuario administrador.
 
 ## Contributing
 
