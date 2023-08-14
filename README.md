@@ -2,7 +2,7 @@ Instalación
 
 - Clonar el repositorio
 
-[git clone https://github.com/1-Aleja/crud.git](https://github.com/1-Aleja/GeolocalizationBack.git)
+[git clone ](https://github.com/1-Aleja/GeolocalizationBack.git)
 
 - Cambiar al directorio del proyecto
 
