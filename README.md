@@ -28,7 +28,7 @@ php artisan key:generate
 
 php artisan migrate
 
-- Ejecutar los header para migrar la data de prueba a la Base de datos
+- Ejecutar los seader para migrar la data de prueba a la Base de datos
 
 php artisan db:seed
 
